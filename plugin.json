@@ -1,0 +1,9 @@
+{
+    "id": "nodebb-plugin-yitu",
+    "description": "A nodebb plugin that upload images to t.halu.lu",
+    "url": "https://github.com/lzjluzijie/nodebb-plugin-yitu",
+    "library": "./index.js",
+    "hooks": [
+        { "hook": "filter:uploadImage", "method": "upload", "priority": 6 }
+    ]
+}

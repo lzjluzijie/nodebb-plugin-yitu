@@ -1,0 +1,23 @@
+{
+  "name": "nodebb-plugin-yitu",
+  "version": "1.0.1",
+  "description": "A nodebb plugin that upload images to t.halu.lu",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lzjluzijie/nodebb-plugin-yitu"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "yitu"
+  ],
+  "author": "Halulu <lzjluzijie@gmail.com>",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "request": "^2.0.0"
+  },
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  }
+}
